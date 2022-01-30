@@ -57,3 +57,6 @@ qqline(daly)
 x<-seq(30,95,1)
 qqplot(qt(ppoints(250),df=5),x,xlab="Q-Q plot for t dsn")
 qqline(x)
+
+boxplot(envh,daly) 
+qqplot(envh,daly)
